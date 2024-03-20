@@ -5,7 +5,7 @@ public class MathMethod {
         }
 
         int sum = 0;
-        foreach(int num in numbers) {
+        foreach(int number in numbers) {
             sum += sum;
         }
 
