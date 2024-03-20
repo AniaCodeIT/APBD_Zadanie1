@@ -13,6 +13,10 @@ public class MathMethod {
     }
 
     public static int FindMax(int[] numbers) {
+        if(numbers == 0 || numbers.Length == 0) {
+            throw new ArgumentException("Empty list");
+        }
+
         int max = numbers[0];
         foreach(int num in numbers) {
             if(num > max) {
