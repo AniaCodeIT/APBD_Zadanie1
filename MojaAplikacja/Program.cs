@@ -2,3 +2,7 @@
 Console.WriteLine("Hello, World!");
 
 # this is a test comment
+
+for(int i = 0; i < 5; i++) {
+    Console.WriteLine(i);
+}
